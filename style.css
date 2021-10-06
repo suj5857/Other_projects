@@ -1,0 +1,97 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-container{
+    
+    width:100%;
+
+}
+.flex-container{
+    display:flex;
+    width:100%;
+    height:100px;
+    background-color:black;
+ition
+}
+.menu{
+    min-width:200px;
+    color:white;
+    font-size:x-large;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.image-container{
+    display:flex;
+    position: relative;
+    text-align:center;
+    
+
+}
+#banner-image{
+    width:100%;
+    opacity:0.8;
+}
+.image-title{
+    position:absolute;
+    top:20%;
+    left:25%;
+    font-size:5em;
+}
+.banner-subtitle{
+    position:absolute;
+    top:30%;
+    left:40%;
+    font-size:3em;
+}
+.skill-container{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    height:250px;
+    margin-top:50px;
+    margin-left: auto;
+
+}
+.skill-1{
+    display:flex;
+    width:100%;
+    margin-top: 40px;
+    justify-content: center;
+}
+#skill-image{
+   
+    width:100%;
+     
+    height:150px
+    margin-right: 50px;
+}
+#skill-text{
+    margin-top:40px;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.skill-heading{
+    display:flex;
+    width:100%;
+    margin-top: 20px;
+    height:40px
+}
+.skill-title{
+    padding-top: 30px;
+    padding-left: 400px;
+    font-size:2em ;
+}
+.portfolio-heading{
+    display:flex;
+    min-width:100%;
+    height:50px;
+    margin-top:20px;
+   
+
+}
+.portfolio-title{
+    display:flex;
+    padding-left:25%;
+    font-size:2em;
+}
